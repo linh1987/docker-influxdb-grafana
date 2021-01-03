@@ -33,6 +33,7 @@ docker run -d \
   -p 3003:3003 \
   -p 3004:8083 \
   -p 8086:8086 \
+  -p 25826:25826 \
   -v /path/for/influxdb:/var/lib/influxdb \
   -v /path/for/grafana:/var/lib/grafana \
   philhawthorne/docker-influxdb-grafana:latest
